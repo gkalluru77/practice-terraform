@@ -28,3 +28,13 @@ variable "fruits_with_quantity" {
 output "fruits_quantity" {
   value = var.fruits_with_quantity["apple"]
 }
+
+
+variable "test" {}
+
+output "test" {
+  value = var.test
+}
+
+
+
