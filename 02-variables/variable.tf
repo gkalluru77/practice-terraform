@@ -29,7 +29,6 @@ output "fruits_quantity" {
   value = var.fruits_with_quantity["apple"]
 }
 
-
 variable "test" {}
 
 output "test" {
