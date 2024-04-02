@@ -6,3 +6,13 @@ variable "sample1" {
 output "sample1" {
   value = var.sample1
 }
+
+variable "fruits" {
+
+  default = ["apple", "banana", "mango"]
+
+}
+
+output "fruits" {
+  value = var.fruits[0]
+}
