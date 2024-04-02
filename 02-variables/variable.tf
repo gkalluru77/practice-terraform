@@ -1,6 +1,6 @@
 variable "sample1" {
 
-  name= "hello"
+  default= "hello"
   }
 
 output "sample1" {
