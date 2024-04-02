@@ -36,5 +36,12 @@ output "test" {
   value = var.test
 }
 
+variable "env" {}
+
+output "env" {
+  value = var.env
+}
+
+
 
 
